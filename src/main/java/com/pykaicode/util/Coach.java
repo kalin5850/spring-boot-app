@@ -1,4 +1,4 @@
-package com.pykaicode.springboot.demo.mycoolapp.rest;
+package com.pykaicode.util;
 
 public interface Coach {
   String getDailyWorkout();
