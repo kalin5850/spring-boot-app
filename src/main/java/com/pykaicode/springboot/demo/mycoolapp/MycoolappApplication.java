@@ -3,8 +3,7 @@ package com.pykaicode.springboot.demo.mycoolapp;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {
-		"com.pykaicode.springboot.demo.mycoolapp", "com.pykaicode.util" })
+@SpringBootApplication
 public class MycoolappApplication {
 
 	public static void main(String[] args) {

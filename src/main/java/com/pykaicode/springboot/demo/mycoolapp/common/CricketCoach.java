@@ -1,4 +1,4 @@
-package com.pykaicode.util;
+package com.pykaicode.springboot.demo.mycoolapp.common;
 
 import org.springframework.stereotype.Component;
 
