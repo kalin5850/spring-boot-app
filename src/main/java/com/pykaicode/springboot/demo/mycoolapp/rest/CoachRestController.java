@@ -14,6 +14,7 @@ public class CoachRestController {
 
   @Autowired
   public CoachRestController(@Qualifier("traceCoach") Coach myCoach) {
+    System.err.println("In constructor " + getClass().getSimpleName());
     this.myCoach = myCoach;
   }
 
